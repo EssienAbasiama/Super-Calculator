@@ -1,0 +1,46 @@
+button{
+    background-color: rgb(38, 0, 255);
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    width: 40px;
+}
+.btn {
+    padding: 3px;
+
+}
+.group{
+    display: block;
+    padding: 4px;
+}
+.float{
+    display: flex;
+    padding-left: 119px;
+    padding-top: 10px;
+}
+.block{
+    display: blocks;
+    margin-top: 8px;
+}
+.special-btn{
+    margin-bottom: 8px;
+    height: 76px;
+    background-color: red;
+}
+.special-btn2{
+    background-color:grey;
+}
+.card{
+    width: 500px;
+    height: 350px;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+.equals{
+    width: 220px;
+    position: absolute;
+    left: 144px;
+}
+.input-group-prepend{
+    margin-bottom: 4px;
+}

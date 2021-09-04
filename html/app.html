@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-header">
+                <h2>Super-Calculator</h2>
+            </div>
+            <div class="card-body">
+                <div class="input-group-prepend">
+                    <input type="text" id="input" placeholder="input" value="">
+                </div>
+                <div>
+                    <input type="text" placeholder="Result will be Shown Here" id = "result"value="" readonly>
+                </div>
+                
+                <div class="float">
+                    <div class="btn">
+                        <div class="group">
+                            <button value = "1" onclick="clic('1')" >1</button>
+                            <button value = "2" onclick="clic('2')" >2</button>
+                            <button value = "3" onclick="clic('3')" >3</button>
+                            <button class="special-btn2" value = "Clr" onclick="clr()" >clr</button>
+                        </div>
+                        <div class="group">
+                            <button value = "4" onclick="clic('4')" >4</button>
+                            <button value = "5" onclick="clic('5')" >5</button>
+                            <button value = "6" onclick="clic('6')" >6</button>
+                            <button class="special-btn2" value = "*" onclick="clic('*')" >*</button>
+                        </div>
+                        <div class="group">
+                            <button value = "7" onclick="clic('7')" >7</button>
+                            <button value = "8" onclick="clic('8')" >8</button>
+                            <button value = "9" onclick="clic('9')" >9</button>
+                            <button class="special-btn2" value = "/" onclick="clic('/')" >/</button>
+                        </div>
+                    </div>
+                    <div class="group2">
+                        <div class="block">
+                            <div>
+                                <button class="special-btn" onclick="clic('+')" value = "+">+</button>
+                            </div>
+                            <div>
+                                <button class="special-btn2" onclick="clic('-')" value = "-">-</button>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <div>
+                    <button class="equals" onclick="solve()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/action.js"></script>
+</body>
+
+</html>
